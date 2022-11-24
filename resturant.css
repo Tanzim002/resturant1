@@ -1,0 +1,230 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cointainer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* header start */
+header{
+    background-color: #24a19c;
+    padding: 0% 1%;
+    text-align: center;
+}
+a .logo{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+nav ul li{
+    display: block;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    font-weight: bold;
+    padding: 0 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: 0.7s;
+}
+
+nav ul li a:hover{
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+/* header End */
+
+/* Banner Start Here */
+#banner-section{
+    background-image: url(Logo/1e.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.banner-contents{
+    padding: 50px 10px;
+    text-align: center;
+}
+
+.banner-contents h1{
+    width: 100%;
+    margin: 15px auto;
+    font-size: 3rem;
+    background: #edec0a;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Handlee', cursive;
+}
+
+.banner-contents p{
+    width: 300px;
+    margin: 15px auto;
+    background: rgb(0, 112, 0);
+    color: white;
+    font-size: 1.4rem;
+}
+
+.banner-contents .btn {
+    width: 160px;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 5px ;
+    border: none;
+    background: rgb(0, 112, 0) ;
+    transition: 0.4s;
+    text-transform: uppercase;
+    color: white;
+}
+.banner-contents .btn:hover{
+    transform: scale(1.2);
+
+}
+/* Banner END Here */
+
+/* about starrt here */
+#about-us{
+    padding: 1% ;
+}
+.about-us-content{
+    text-align: center;
+}
+.about-us-content h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.about-us-content p{
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    font-family: 'Brandon Grotesque Regular', sans-serif;
+
+}
+
+/* about END here */
+
+/* menu section */
+#menu{
+    padding: 1%;
+}
+.card-body{
+    text-align: center;
+}
+.card-body img{
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.item-desc{
+    background:rgb(165, 165, 165) ;
+}
+
+.item-name{
+    background: green;
+    color: white;
+    padding: 10px;
+}
+
+.item-desc > p {
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.card{
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 2px 5px 9px 2px rgb(58, 20, 20) ;
+}
+
+
+/* menu section END */
+
+/* contact start */
+.map{
+    width: 100%;
+}
+.map p{
+
+text-align: left;
+font-size: 29px;
+color: aliceblue;
+font-weight: bolder;
+}
+
+.map p span{
+    background-color: rgba(2, 38, 37, 0.858);
+}
+
+#contact{
+    padding: 1%;
+    background-color: #595b83;
+}
+.contact-details{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-details p, address{
+    font-size: 0.8rem;
+}
+
+/* footer */
+
+footer{
+    padding: 1%;
+    color: white;
+    background-color: #060930;
+    text-align: center;
+}
+footer p{
+    line-height: 32px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.social-menu  a .icon-style{
+    text-align: center;
+    color: white;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: 0.4s;
+    text-align: center;
+    
+}
+
+.social-menu  a .icon-style:hover{
+background-color: gray;
+transform: scale(1.3);
+text-shadow: 2px 2px 16px  red ;
+
+}
